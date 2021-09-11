@@ -4,32 +4,40 @@
     <title>Manganimus</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap" rel="stylesheet">
   </head>
   <body class="main">
     <header class="main-header">
-      <span class="main-header__title">Manganimus</span>
-      <div class="main-header-container">
-        <a href="#subcribe" class="main-header-container__link">SUSCRIBETE</a>
+      <span class="main-header__title">manganimus</span>
+      <div class="main-header-container button">
+        <a href="#subcribe">Suscríbete</a>
       </div>
     </header>
 
     <section class="main-section">
-      <picture>
+      <picture class="main-section__picture">
         <img src="#" alt="Mangas digitales y en español">
       </picture>
-      <h1>Mangas digitales y en español</h1>
-      <p>
-        Todos los capitulos de tus mangas favoritos en un solo lugar, adaptable a cualquier dispositivo y libre de publicidad.
-        Suscribete y se la primer persona en enterarte
+      <h1 class="main-section__title">Mangas digitales en español neutro</h1>
+      <p class="main-section__subtitle">
+        Todos los capítulos de tus mangas favoritos en un solo lugar.
       </p>
-      <form>
-        <input type="" name="" value="" placeholder="Ingresa tu correo electronico">
-        <button type="submit">SUSCRIBETE</button>
+      <p class="main-section__excerpt">Sé el primero en enterarte de nuestro lanzamiento</p>
+      <form class="newsletter">
+        <input type="email" placeholder="Ingresa tu correo electronico" class="newsletter-box">
+        <div class="button">
+          <button type="submit" class="button">Suscríbete</button>
+        </div>
       </form>
     </section>
 
-    <section class="main-section">
+    <section class="main-section-info">
+      <div class="col">
+        
+      </div>
       <picture>
         <img src="#" alt="Acceso a mangas">
       </picture>
@@ -40,7 +48,7 @@
       </p>
     </section> 
 
-    <section class="main-section">
+    <section class="main-section-info">
       <picture>
         <img src="#" alt="Catalogos completos">
       </picture>
@@ -51,7 +59,7 @@
       </p>
     </section>
 
-    <section class="main-section">
+    <section class="main-section-info">
       <picture>
         <img src="#" alt="Catalogos completos">
       </picture>
@@ -61,7 +69,7 @@
       </p>
     </section>
 
-    <section class="main-section">
+    <section class="main-section-info">
       <picture>
         <img src="#" alt="Legal y seguro">
       </picture>
@@ -73,12 +81,14 @@
     </section>
 
     <footer class="main-footer">
-      <h3>Se la primera persona en enterare</h3>
-      <form>
-        <input type="" name="" value="" placeholder="Ingresa tu correo electronico">
-        <button type="submit">SUSCRIBETE</button>
+      <h2 class="main-footer__title">¿Quieres enterarte primero de nuestro lanzamiento?</h2>
+      <form class="newsletter">
+        <input type="email" placeholder="Ingresa tu correo electronico" class="newsletter-box">
+        <div class="button">
+          <button type="submit" class="button">Suscríbete</button>
+        </div>
       </form>
-      <p>&copy; 2021 Manganimus</p>
+      <p class="main-footer__copyrigth">&copy; 2021 Manganimus</p>
     </footer>
   </body>
 </html>
