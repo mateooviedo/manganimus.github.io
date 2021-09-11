@@ -3,9 +3,8 @@
   background-color: #FFFEFC;
 }
 
-/* start Inherit */
-section, footer {
-  margin: 0 140px;
+.wrapper {
+  margin: 0 144px;
 }
 
 .button {
@@ -75,7 +74,9 @@ section, footer {
 }
 
 /* End Inherit */
-
+.wrapper {
+  margin: 0 144px;
+}
 .main-header {
   width: 100%;
   height: 50px;
@@ -110,6 +111,7 @@ section, footer {
   font-weight: bold;
   font-size: 54px;
   margin-bottom: 12px;
+  text-align: center;
 }
 
 .main-section__subtitle {
@@ -155,7 +157,7 @@ section, footer {
 }
 
 .main-section-info p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 200;
   opacity: 0.6;
 }
@@ -181,4 +183,23 @@ section, footer {
   margin-bottom: 92px;
   font-size: 18px;
   opacity: 0.6;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 780px) {
+  .wrapper {
+    margin: 0 128px;
+  }
+
+  .container-right .col-1 {
+    flex: 1;
+    margin-right: 5%;
+  }
+
+  .container-right .col-2 {
+    flex: 2;
+  }
+
+  .main-section__title {
+    font-size: 48px;
+  }
 }
