@@ -66,6 +66,10 @@
     font-size: 18px;
   }
 
+  .main-section-info h2 {
+    text-align: center;
+  }
+
   .main-section-info .col-1{
     text-align: center;
   }
