@@ -6,7 +6,6 @@
 /* start Inherit */
 section, footer {
   margin: 0 140px;
-  width: 1160px;
 }
 
 .button {
@@ -131,6 +130,10 @@ section, footer {
   margin-bottom: 212px;
 }
 
+.main-section-info .container-right {
+  width: 100%;
+}
+
 .main-section-info:not(.main-section-info.container-center) {
   display: flex;
   flex-direction: row;
@@ -146,7 +149,7 @@ section, footer {
   font-size: 36px;
 }
 
-.main-section-info > span {
+.main-section-info .offFocus {
   font-weight: 200;
   font-size: 36px;
 }
