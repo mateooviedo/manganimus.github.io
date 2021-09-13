@@ -1,6 +1,6 @@
 @media only screen and (max-width: 780px) and (min-width: 320px) {
   .wrapper {
-    margin: 0 6px;
+    margin: 0 15px;
   }
 
   .newsletter {
@@ -18,44 +18,32 @@
     width: 100%;
   }
 
-  .container-right .col-1 {
-    width: 100%;
-  }
-  
-  .container-right .col-2 {
-    width: 100%;
-    margin-left: 0;
-  }
-  
-  .container-left, .container-right {
+  .container-left {
     flex-direction: column;
   }
-  
+
   .container-left .col-1 {
     width: 100%;
     margin-left: 0;
   }
-  
+
   .container-left .col-2 {
     width: 100%;
     margin-right: 0;
   }
 
-  .container-center .col-1, .col-2 {
-    width: 100%;
-  }
-
   .main-header__title {
-    margin-left: 6px;
+    margin-left: 15px;
     font-size: 18px;
   }
 
   .main-header-container {
-    margin-right: 6px;
+    margin-right: 15px;
   }
 
-  .main-section, .main-section-info {
-    margin-bottom: 154px;
+  .main-section,
+  .main-section-info {
+    margin-bottom: 0px;
   }
 
   .main-section__title {
@@ -70,32 +58,44 @@
     text-align: center;
   }
 
-  .main-section-info .col-1{
+  .main-section-info .col-1 {
     text-align: center;
-  }
-
-  .container-center.mobile {
-    display: block;
-  }
-  
-  .container-center.offMobile {
-    display: none;
-  }
-
-  .main-section-info__firstManga {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .main-section-info__firstManga h2 {
-    margin-bottom: 48px;
-  }
-
-  .main-section-info__firstManga span {
-    margin-bottom: 0;
   }
 
   .main-footer__title {
     text-align: center;
+  }
+
+  .maing-section__img,
+  .main-section-info__imgPeople,
+  .main-section-multi__imgCalidad2,
+  .main-section-info__imgProtection {
+    width: 80%;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .main-section-color__container {
+    margin: 20px;
+  }
+
+  .main-section-color {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .main-section-multi {
+    margin-bottom: 100px;
+  }
+
+  .main-section-multi p {
+    width: 100%;
+  }
+
+  .section-protection {
+    margin-bottom: 100px;
+    height: 600px;
   }
 }

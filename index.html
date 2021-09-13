@@ -17,45 +17,41 @@
   <header class="main-header">
     <span class="main-header__title">manganimus</span>
     <div class="main-header-container button">
-      <a href="#subcribe">Suscríbete</a>
+      <a href="#" class="linkContactanos">Contactanos</a>
     </div>
   </header>
 
   <div class="wrapper">
     <section class="main-section">
-      <picture class="main-section__picture">
-        <img src="#" alt="Mangas digitales y en español">
-      </picture>
+      <img src="/resources/calidad1.jpeg" alt="Mangas digitales y en español" class="maing-section__img">
       <h1 class="main-section__title">Mangas digitales en español neutro</h1>
       <p class="main-section__subtitle">
         Todos los capítulos de tus mangas favoritos en un solo lugar.
       </p>
       <p class="main-section__excerpt">Sé el primero en enterarte de nuestro lanzamiento</p>
-      <form class="newsletter">
-        <input type="email" placeholder="Ingresa tu correo electronico" class="newsletter-box">
+      <div class="newsletter">
         <div class="button">
-          <button type="submit" class="button">Suscríbete</button>
+          <button type="button" class="button">Contactanos</button>
         </div>
-      </form>
-    </section>
-
-    <section class="main-section-info container-right">
-      <div class="col-1">
-        <img src="#" alt="Acceso a mangas">
-      </div>
-      <div class="col-2">
-        <h2>Mangas en español<span class="offFocus"> con traducciones oficiales</span></h2>
-        <p>
-          Evita la doble traducción japonés-inglés e inglés-español. Nuestro equipo de traductores certificados te
-          brinda mangas traducidas directamente del japonés al español, con el contexto adecuado y sin modismos
-          extraños.
-        </p>
       </div>
     </section>
+  </div>
 
+  <section class="main-section-color">
+    <div class="main-section-color__container">
+      <h2><span class="offFocus">Mangas en español con </span>traducciones oficiales</h2>
+      <p>
+        Evita la doble traducción japonés-inglés e inglés-español. Nuestro equipo de traductores certificados te
+        brinda mangas traducidas directamente del japonés al español, con el contexto adecuado y sin modismos
+        extraños.
+      </p>
+    </div>
+  </section>
+
+  <div class="wrapper">
     <section class="main-section-info container-left">
       <div class="col-1">
-        <img src="#" alt="Catalogos completos">
+        <img src="/resources/people.jpeg" alt="Catalogos completos" class="main-section-info__imgPeople">
       </div>
       <div class="col-2">
         <h2>Catálogos completos</h2>
@@ -67,54 +63,24 @@
       </div>
     </section>
 
-    <section class="main-section-info container-center offMobile">
-      <div class="main-section-info__firstManga">
-        <span class="offFocus">El primer manga-reader multiplataforma</span>
-        <h2 class="main-section-info__title-center">
-          ¡En español!
-        </h2>
-      </div>
-      <div class="container-right">
-        <div class="col-1">
-          <img src="#" alt="Acceso a mangas">
-        </div>
-        <div class="col-2">
-          <p>
-            Disfruta del manga en tu idioma desde cualquier lugar y en cualquier dispositivo. Lee manga cómodamente sin
-            perder la calidad del contenido desde cualquier dispositivo y sin publicidad.
-          </p>
-        </div>
-      </div>
+    <section class="main-section-multi">
+      <span class="offFocus">Plataforma de mangas digitales</span>
+      <h2 class="main-section-info__title-center">
+        ¡En español!
+      </h2>
+      <img src="resources/calidad2.jpeg" alt="Acceso a mangas" class="main-section-multi__imgCalidad2">
+      <p>
+        Disfruta del manga en tu idioma desde cualquier lugar y en cualquier dispositivo. Lee manga cómodamente sin
+        perder la calidad del contenido desde cualquier dispositivo y sin publicidad.
+      </p>
     </section>
 
-    <section class="main-section-info container-center mobile">
-      <div class="main-section-info__firstManga">
-        <div>
-          <span class="offFocus">El primer manga-reader multiplataforma</span>
-          <h2 class="main-section-info__title-center">
-            ¡En español!
-          </h2>
-        </div>
-        <div class="col-1">
-          <img src="#" alt="Acceso a mangas">
-        </div>
-      </div>
-      <div class="container-right">
-        <div class="col-2">
-          <p>
-            Disfruta del manga en tu idioma desde cualquier lugar y en cualquier dispositivo. Lee manga cómodamente sin
-            perder la calidad del contenido desde cualquier dispositivo y sin publicidad.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="main-section-info container-left">
+    <section class="main-section-info container-left section-protection">
       <div class="col-1">
-        <img src="#" alt="Catalogos completos">
+        <img src="resources/protection.jpeg" alt="Proteccion" class="main-section-info__imgProtection">
       </div>
       <div class="col-2">
-        <h2>Traducciones certificadas</h2>
+        <h2><span class="offFocus">La mejor plataforma para disfrutar del manga</span> ¡En español!</h2>
         <p>
           Con <span>manganimus</span> tus dispositivos están protegidos de virus y contenido no deseado. Licencias de
           editoriales y autores de mangas japoneses. En Manganimus amamos el manga y veneramos a nuestros mangakas
@@ -125,15 +91,16 @@
 
     <footer class="main-footer">
       <h2 class="main-footer__title">¿Quieres enterarte primero de nuestro lanzamiento?</h2>
-      <form class="newsletter">
-        <input type="email" placeholder="Ingresa tu correo electronico" class="newsletter-box">
+      <div class="newsletter">
         <div class="button">
-          <button type="submit" class="button">Suscríbete</button>
+          <button type="button" class="button">Contactanos</button>
         </div>
-      </form>
+      </div>
       <p class="main-footer__copyrigth">&copy; 2021 Manganimus</p>
     </footer>
-
   </div>
+  
+  <script src="src/index.js"></script>
 </body>
+
 </html>
